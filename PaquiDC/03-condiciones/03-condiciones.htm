@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Página con Javascript.
+      </title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" type="text/css" href="estilos.css">
+      <script src="index.js" language="javascript" type="text/javascript"></script>    
+   </head>
+   <body>
+      <h1>Práctica con hoja de JavaScript en una hoja aparta (funciones.js)</h1>
+        <h4>Tabla de multiplicar introduciendo un número. (for)</h4>
+        <input type="text" id="entrada" value="" placeholder="Escribe un número">
+        <input type="button" onclick="multiplicar()" value="multiplicar">
+               
+                <span id="tabla"></span>
+      
+
+        <h4>Comprobar si el número introducido es par o impar. (if,else)</h4>
+            <input type="text" id="parImpar" value="" placeholder="Escribe un número">
+            <input type="button" onclick="parImpar()" value="Par o impar">
+               <div id="poi"></div>
+
+
+        <h4>Comprobar si el número introducido es primo. (for, if, else)</h4>
+            <input type="text" id="numeroPrimo" value="" placeholder="Escribe un número">
+            <input type="button" onclick="primo()" value="Primo">
+                  <br>
+                  <span id="prim"></span>
+
+        <h4>Comprobar la edad introducida a que categoría deportiva pertenece . Introducir edad entre 5 y 18. (Switch)</h4>
+             <input type="text" id="jugadores" value="" placeholder="Introduzca la edad">
+             <input type="button" onclick="futbol()" value="Edad del jugador">
+             <span id="categoria"></span>
+             
+        <h4>Comprobar a que trimestre pertenece un mes introducido</h4>
+             <input type="text" id="trime" value="" placeholder="Introduzca un mes">
+             <input type="button" onclick="trimestre()" value="Trimestre">
+             <span id="mes"></span>
+
+        <h4>Introducir una fecha y comprobar el signo del zodiaco</h4>
+             <input type="date" id="zodiac" value="" placeholder="Introduzca una fecha">
+             <input type="button" onclick="zodiaco()" value="Zodiaco">
+             <span id=" zoc"></span>
+
+        <h4>Introducir un código postal y mostrar a que región pertenece</h4>
+             <input type="text" id="codPost" value="" placeholder="Introduzca codigo postal"  minlength="5" maxlength="5">
+             <input type="button" onclick="codigoPostal()" value="Codigo postal">
+             <span id='cp'></span>
+
+        <h4>Introducir un numero de 1 al 7 y que muestre el nombre del día de la semana</h4>
+             <input type="text" id="sem" value="" placeholder="Introduzca un numero">
+             <input type="button" onclick="semana()" value="Semana">
+              <span id="dia"></span>
+
+        <h4>Introducir el DNI. y la letra y comprobar si la letra es correcta. (TRWAGMYFPDXBNJZSQVHLCKE) (DNI%23)</h4>
+             <input type="text" id="nif" value="" placeholder="Introduzca un DNI" minlength="9" maxlength="9">
+             <input type="button" onclick= "dni()" value="DNI_correcto" >
+             <span id="letraCorrect"></span>
+
+        <h4>Introducir una hora y comprobar si es por la mañana, tarde ,noche o madrugada</h4>
+             <input type="time" id="momento" value="" placeholder="Introduzca una hora">
+             <input type="button" onclick="horaDia()" value="Hora">
+             <span id="momentDia"></span>
+   </body>
+</html>

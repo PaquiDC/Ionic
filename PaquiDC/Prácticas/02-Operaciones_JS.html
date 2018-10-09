@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prácticas con hoja de JavaScript</title>
+	<script language="JavaScript" type="text/javascript" src="js/funciones.js"></script>
+
+</head>
+<body>
+
+<h1>Prácticas con hoja de JavaScript en una hoja aparte (funciones.js)</h1>
+
+<p>¿Cuánto es <span id="litros"></span> en centilitros? <span id="centilitros"></span></p>
+<script type="text/javascript">
+document.getElementById("litros").innerHTML = litros + " litros" ;
+document.getElementById("centilitros").innerHTML = centilitros + " centilitros" ;
+</script>
+
+<p>¿Cuántos metros son <span id="kilometros"></span> ? <span id="metros"></span></p>
+<script type="text/javascript">
+document.getElementById("metros").innerHTML = metros + " metros";
+document.getElementById("kilometros").innerHTML = kilometros + " kilómetros";
+</script>
+
+<p>¿Cuántos minutos tiene <span id="dias5"></span>? <span id="minutos"></span><span id="horas"></span></p>
+<script type="text/javascript">
+	document.getElementById("minutos").innerHTML = minutos + " minutos" ;
+		document.getElementById("dias5").innerHTML = dias5 + " dias" ;
+	document.getElementById("horas").innerHTML = horas + " horas" ;
+</script>
+
+<p>¿Cuántos son <span id="megabytes"></span> en gigabyte? <span id="gigabyte"></span></p>
+<script type="text/javascript">
+document.getElementById("gigabyte").innerHTML = gigabyte + " gigabyte" ;
+document.getElementById("megabytes").innerHTML = megabytes + " megabytes" ;
+</script>
+
+<p>Cuantos centímetros son <span id="pulgadas"></span> pulgadas? <span id="centimetros"></span></p>
+<script type="text/javascript">
+document.getElementById("centimetros").innerHTML = centimetros + " centimetros" ;
+document.getElementById("pulgadas").innerHTML = pulgadas + " pulgadas" ;
+</script>
+
+<p>1 dia tiene <span id="horas1"> </span> ,<span id="minutos1"></span> minutos y <span id="segundos"></span>segundos</p>
+<script type="text/javascript">
+document.getElementById("horas1").innerHTML = horas1 + " horas" ;
+document.getElementById("minutos1").innerHTML = minutos1 + " minutos";
+document.getElementById("segundos").innerHTML = segundos + " segundos" ;
+</script>
+
+
+<p>Calcula el precio final de un producto con valor <span id="valor1"></span> - <span id="porcent"></span> + <span id="iva"></span> = <span id="total"></span></p>
+<script type="text/javascript">
+	document.getElementById("valor1").innerHTML = valor1 + "€";
+	document.getElementById("porcent").innerHTML = porcent +"%";
+	document.getElementById("iva").innerHTML = iva + " IVA";
+	document.getElementById("total").innerHTML = total + "€ total";
+</script>
+
+<p>El año actual es <span id="anoActual"></span>, el año anterior fue <span id="anoAnterior"></span> y el año siguiente será <span id="anoPost"></span></p>
+<script type="text/javascript">
+	document.getElementById("anoActual").innerHTML = anoActual + " año actual";
+	document.getElementById("anoAnterior").innerHTML = anoAnterior +" año anterior";
+	document.getElementById("anoPost").innerHTML = anoPost + " año posterior";
+</script>
+
+<p> <span id="ano"></span> completo tiene <span id="dias"></span>,<span id="semanas"></span>,<span id="trimestres"></span></p>
+<script type="text/javascript">
+	document.getElementById("ano").innerHTML = ano + " año";
+	document.getElementById("dias").innerHTML = dias +" dias";
+	document.getElementById("semanas").innerHTML = semanas + " semanas";
+	document.getElementById("trimestre").innerHTML = trimestre + " trimestre";
+
+</script>
+
+<p>Si un coche circula a <span id="kmHora"></span> km/h ¿Cuantos minutos tarda en recorrer <span id="kilome"></span>km?  <span id="minut"></span> </p>
+<script type="text/javascript">
+	document.getElementById("kmHora").innerHTML = kmHora + " km/h";
+	document.getElementById("kilome").innerHTML = kilome + " kilómetros";
+	document.getElementById("minut").innerHTML = minut + " minutos";
+</script>
+</body>
+</html>

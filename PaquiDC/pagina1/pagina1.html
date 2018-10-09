@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página maestra</title>
+    <style type="text/css">
+      #contenedor{ text-align: center; }
+    </style>
+    <style>
+      a:link , a:visited , a:hover, a:active {
+    color: darkmagenta; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+img{
+  vertical-align: text-top;
+  width: 100% ;
+
+}
+.imagen_pequeña{
+  width: 8% ;
+}
+</style>
+<style type="text/css">
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+<style type="text/css">
+  caption {
+    color: darkmagenta;
+    text-transform: uppercase;
+  }
+</style>
+<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+  </head>
+  <body style="background-color:powderblue;">
+    <a id="arriba"></a>
+   
+    <div>
+      <a href="#encabezado" title="Etiqueta de encabezados">Encabezado </a>
+      <a href="#cuerpo1" title="Etiqueta de párrafos">Párrafos</a>
+      <a href="#cuerpo2" title="Etiqueta de formatos">Formatos</a>
+      <a href="#citas" title="Etiqueta de citas">Citas</a>
+      <a href="#cuerpo3" title="Etiqueta de estilos">Estilos</a>
+      <hr id="encabezado">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr id="cuerpo1">
+    <a href="#arriba" title="Lleva al principio">Subir</a>
+    <p>
+      This paragraph
+      contains a lot of lines
+      in the source code,
+      but the browser 
+      ignores it.
+    </p>
+
+    <p>
+      This paragraph
+      contains      a lot of spaces
+      in the source     code,
+      but the    browser 
+      ignores it.
+    </p>
+    <pre>
+      My Bonnie lies over the ocean.
+
+      My Bonnie lies over the sea.
+
+      My Bonnie lies over the ocean.
+
+      Oh, bring back my Bonnie to me.
+    </pre>
+    <hr id="cuerpo2">
+    <a href="#arriba" title="Lleva al principio">Subir</a>
+    <p>
+       <b>This text is bold</b>
+    </p>
+    <p>
+      <strong>This text is strong</strong>
+    </p>
+   
+    <p><i>This text is italic</i></p>
+    <p><em>This text is emphasized</em></p>
+    <p><h2>HTML <small>Small</small> Formatting</h2></p>
+    <p><h2>HTML <mark>Marked</mark> Formatting</h2></p>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite <ins>color</ins> is red.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+    <hr id="citas">
+    <a href="#arriba" title="Lleva al principio">Subir</a>
+    <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+    <p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<p>
+<bdo dir="rtl">This text will be written from right to left</bdo>
+</p>
+<p>
+<bdo dir="ltr">This text will be written from right to left</bdo>
+</p>
+<hr>
+<!--esto es un comentario-->
+<hr id="cuerpo3">
+<a href="#arriba" title="Lleva al principio">Subir</a>
+<h1 style="background-color:DodgerBlue;color: white">Hello World</h1>
+<p style="background-color:Tomato; color: white">Lorem ipsum...</p>
+<h1 style="color:Tomato;">Hello World</h1>
+<p style="color:DodgerBlue;">Lorem ipsum...</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+<h1 style="border:2px solid Tomato;">Hello World</h1>
+<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+<h1 style="border:2px solid Violet;">Hello World</h1>
+<a href="#arriba" title="Lleva al principio">Subir</a>
+<hr>
+  <img src="tormenta.jpg" style="width: 50%">
+  <hr>
+  <img src="tormenta.jpg" alt="Tormenta" width="500" height="600">
+  <hr>
+   <img src="tormenta.jpg" style="width: 33%">
+  <img src="anemona.jpg" style="width: 33%">
+  <img class="imagen_pequeña" src="buho.jpg" style="width: 33%" >
+  <hr>
+    <table style="width:100%">
+      <caption>Monthly savings</caption>
+  <tr>
+    <th>Name</th>
+    <th colspan="2">Telephone</th>
+  </tr>
+  <tr>
+    <td>Bill Gates</td>
+    <td>55577854</td>
+    <td>55577855</td>
+  </tr>
+</table>
+<hr>
+<table style="width:100%">
+  <tr>
+    <th>Name:</th>
+    <td>Bill Gates</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Telephone:</th>
+    <td>55577854</td>
+  </tr>
+  <tr>
+    <td>55577855</td>
+  </tr>
+</table>
+  <hr>
+  <h2>Styling Tables</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>Paqui</td>
+    <td>Diaz</td>
+    <td>30</td>
+  </tr>
+
+</table>
+<br>
+ 
+<table id="t01">
+  <caption>Nombre y edad</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+  <tr>
+    <td>Paqui</td>
+    <td>Diaz</td>
+    <td>30</td>
+  </tr>
+</table>
+<hr>
+<style type="text/css">
+thead {color:green;}
+tbody {color:darkmagenta;}
+tfoot {color:darksalmon;}
+</style>
+<table>
+  <caption>Presupuestos</caption>
+  <thead>
+    <tr>
+      <th colspan="2">Meses</th>
+    </tr>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+<hr>
+<table>
+
+  <tr>
+    <td>
+      <h2>An Unordered HTML List</h2>
+  <ul style="list-style-type:square;">
+  <li>Coffee</li>
+  <li>Milk</li>
+  <li>Tea
+  <ul>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </li>
+    </ul>
+</ul>
+</td>  
+    <td>
+      <h2>An Ordered HTML List</h2>
+<ol type="i">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+</td>
+<td>
+  <h2>A Description List</h2>
+<ol type="i">
+  <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+</ol>
+</td>
+</tr>
+</table>
+<hr>
+<h2><span style="color:goldenrod">Etiqueta </span><span style="color:darkcyan">span </span> <span style="color:darkmagenta">mola</span> y se puede poner el color a cada <span style="color:darkcyan">palabra </span>o <span style="color:darkmagenta">letra</span> que quieras</h2>
+<hr>
+<div style="background-color:cadetblue;color:white;padding:20px; margin: 0 auto; width: 75%">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+<br>
+<div style="margin-top:0; margin-bottom: 0; margin-left: auto; margin-right: auto; width: 75%">
+<div style="border:1px solid fuchsia ;float: left; padding: 2%; width: 25%; background-color:darkmagenta ;color: white; margin-right: 1%">
+  <h2><span style="color:goldenrod">London</span></h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+<div style="border:1px solid fuchsia ; float: left; padding: 2%; width: 25%; background-color:darkcyan;color: white; margin-right: 1%">
+  <h2><span style="color:darkmagenta">Paris</span></h2>
+  <p>Paris is the capital city of France. It is the most populous city in Europ, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Parisin.</p>
+</div>
+<div style="border:1px solid fuchsia ; float: left; padding: 2%; width: 25%; background-color:goldenrod;color: white">
+  <h2><span style="color:darkcyan">Tokio</span></h2>
+  <p>Tokio is the capital city of Japan. It is the most populous city in Japan, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+</div>
+<div style="clear:both;"></div>
+<hr>
+<div style="margin-top:auto; margin-bottom: auto; margin-left: 0; margin-right: 0; width: 75%">
+  <div>
+    
+  </div>
+  <div>
+    
+  </div>
+  <div>
+    
+  </div>
+</div>
+<hr>
+<hr>
+ 
+</div>
+  
+  </body>
+</html>

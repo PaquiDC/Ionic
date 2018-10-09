@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Introducción al Javascript.</title>
+   </head>
+   <body>
+      <h1>¿Qué puede JavaScript hacer?</h1>
+      <hr/>
+      <h2>JavaScript puede cambiar el contenido HTML</h2>
+        <p>Uno de los muchos métodos JavaScript HTML es <strong>getElemenById()</strong>.</p>
+        <p>En este ejemplo se utiliza el método de "encontrar" un elemento HTML (con id = "demo") y cambia el contenido del elemento (<strong>innerHTML</strong>) para "Hola JavaScript" </p>
+        <p id="ingles">JavaScript puede cambiar el contenido HTML</p>
+        <button type="button" onclick='document.getElementById("ingles").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+        <p id="espa">JavaScript puede cambiar el contenido HTML</p>
+        <button type="button" onclick='document.getElementById("espa").innerHTML = "Hola JavaScript!"'>¡Pulsame!</button>
+
+        <p id="frances">JavaScript puede cambiar el contenido HTML</p>
+        <button type="button" onclick='document.getElementById("frances").innerHTML = "Salut JavaScript!"'>Clique moi!</button>
+      <hr/>
+      <h2>JavaScript puede cambiar los valores de atributos HTML</h2>
+      <p>En este ejemplo JavaScript cambia el valor del atributo src (fuente) de una etiqueta &img>:</p>
+      <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+      <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+      <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+   </body>
+</html>
+
