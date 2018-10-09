@@ -7,3 +7,6 @@
 [submodule "proyectosAngular/primerAngular"]
 	path = proyectosAngular/primerAngular
 	url = /Users/Dev2/Documents/CursoIonic/proyectosAngular/primerAngular
+[submodule "nuevoIonic/primerIonic"]
+	path = nuevoIonic/primerIonic
+	url = /Users/Dev2/Documents/CursoIonic/nuevoIonic/primerIonic
